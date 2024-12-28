@@ -9,33 +9,37 @@ body {
 .container {
     width: 90%;
     max-width: 1200px;
-    margin: auto;
+    margin: 0 auto; /* Center the container */
+    padding: 0 15px; /* Add horizontal padding */
 }
 
 /* Header */
 .header {
     background: #333;
-    color: #fff;    padding: 2rem 0;
-}
-
-.header .logo {
-    font-size: 2rem;
-    font-weight: bold;
-    text-decoration: none;
     color: #fff;
+    padding: 2rem 0;
+    display: flex;  /* Use flexbox for layout */
+    align-items: center;  /* Vertically align items */
+    justify-content: space-between; /* Distribute space between logo and nav */
 }
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.header .logo { /* Logo container styles */
+    display: flex;  /* Enable flexbox for vertical alignment */
+    align-items: center; /* Vertically center the logo */
 }
 
-.navbar ul {
+.header .logo img { /* Logo image styles */
+    max-width: 100%; /* Set a maximum width; adjust as needed */
+    height: auto;     /* Maintain aspect ratio */
+}
+
+
+/* Navigation Styles (Cleaned up) */
+.navbar ul { 
     list-style: none;
     margin: 0;
     padding: 0;
-    display: flex;
+    display: flex; /* Horizontal navigation */
 }
 
 .navbar li {
@@ -47,49 +51,7 @@ body {
     color: #fff;
 }
 
-.ecosystem-item {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-.ecosystem-item img {
-    width: 100px;
-    height: 100px;
-    margin-right: 20px;
-}
-
-.ecosystem-item h3 {
-    margin: 0;
-}
-
-.ecosystem-item p {
-    margin: 5px 0;
-}
-
-.ecosystem-item a {
-    color: #007bff;
-    text-decoration: underline;
-}
-
-.header .logo {
-    background-image: url('/images/logo.png'); /* Replace with your logo URL */
-    background-size: contain;
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
-.navbar ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    padding: 0;
-}
-
-.navbar ul li a {
-    color: #fff;
-    text-decoration: none;
-}
+/* ... (Rest of your CSS styles for hero, sections, footer, etc.) */
 
 /* Hero Section */
 .hero {
