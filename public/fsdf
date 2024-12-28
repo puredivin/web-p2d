@@ -1,0 +1,16 @@
+pur2di_website/
+│
+├── public/
+│   ├── index.html        # Main HTML file
+│   ├── styles.css        # Styles for the website
+│   ├── script.js         # JavaScript functionality
+│   ├── images/           # Directory for website images
+│   │   ├── logo.png
+│   │   ├── ecosystem1.jpg
+│   │   ├── ecosystem2.jpg
+│   └── icons/            # Directory for icons (if any)
+│
+├── firebase.json         # Firebase configuration file
+├── .firebaserc           # Firebase project alias configuration
+├── package.json          # Firebase and project dependencies (optional)
+└── README.md             # Project documentation

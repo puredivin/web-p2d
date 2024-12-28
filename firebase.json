@@ -1,7 +1,6 @@
 {
   "hosting": {
-    "public": ".",
-    "predeploy": "echo Build command not really needed as no frameworks involved.",
+    "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",
