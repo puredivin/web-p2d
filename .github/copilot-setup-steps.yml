@@ -1,0 +1,3 @@
+steps:
+  - name: Install Firebase CLI
+    run: npm install -g firebase-tools
